@@ -1,0 +1,68 @@
+Producto,Marca,Supermercado,"Precio Total","Cantidad Total","Precio en gr/ml/unidad","Porcion en gr/ml/unidad","Precio en porcion",Categoria
+"Aceite de Oliva",Olitalia,Pricesmart,"40252 $","1000 ml","40.25200 $","5 ml","201.25999 $","Grasas Saludables"
+Cilantro,Kiskas,Alkosto,"3000 $","10 gr","300.00000 $","Porcion Ilimitada","Porcion Ilimitada","Condimentos y Salsas"
+"Crema de Avellana","Why Not",Pricesmart,"44900 $","340 gr","132.05882 $","4 gr","528.23529 $","Frutos Secos"
+"Lomo de cerdo",N/A,"CC Carnes","23616 $","1000 gr","23.61600 $","100 gr","2361.59992 $",Proteina
+"Costilla de cerdo",N/A,"CC Carnes","31350 $","1200 gr","26.12500 $","90 gr","2351.25000 $",Proteina
+Panceta,N/A,"CC Carnes","26488 $","1000 gr","26.48800 $","100 gr","2648.80009 $",Proteina
+Milanesa,N/A,"CC Carnes","25392 $","1000 gr","25.39200 $","100 gr","2539.20002 $",Proteina
+Jamón,Pietrán,Pricesmart,"42900 $","862 gr","49.76798 $","46 gr","2289.32702 $",Sustitutos
+"Papas Congeladas",McCain,Pricesmart,"28900 $","2000 gr","14.45000 $","108 gr","1560.59998 $",Carbohidratos
+Leche,Alqueria,Pricesmart,"68900 $","13000 ml","5.30000 $","200 ml","1060.00004 $",Lácteos
+"Crema de Leche",Alqueria,Pricesmart,"34500 $","1440 ml","23.95833 $","20 ml","479.16660 $",Lácteos
+"Queso Parmesano","Member's Selection",Pricesmart,"43500 $","453 gr","96.02649 $","14 gr","1344.37085 $",Sustitutos
+"Jugo de Naranja",Túnez,Pricesmart,"11900 $","2000 ml","5.95000 $","Porcion Ilimitada","Porcion Ilimitada",Bebidas
+"Queso Finesse",Alpina,Pricesmart,"48900 $","900 gr","54.33333 $","34 gr","1847.33316 $",Sustitutos
+"Avena Finesse",Alpina,Pricesmart,"38900 $","3000 ml","12.96667 $","250 ml","3241.66751 $",Lácteos
+"Yogurt Finesse","Alpina ",Pricesmart,"44900 $","3000 ml","14.96667 $","200 ml","2993.33401 $",Lácteos
+"Yogurt Griego","Member's Selection",Pricesmart,"26900 $","907 ml","29.65821 $","100 ml","2965.82108 $",Lácteos
+"Pan Tajado",Bimbo,Pricesmart,"11900 $","1000 gr","11.90000 $","35 gr","416.49999 $",Carbohidratos
+Soda,Bretaña,Pricesmart,"16900 $","10000 ml","1.69000 $","Porcion Ilimitada","Porcion Ilimitada",Bebidas
+Huevos,AA,Hueveria,"16500 $","30 gr","550.00000 $","1 Unidades","550.00000 $",Sustitutos
+Chata,N/A,"CC Carnes","35532 $","846 gr","42.00000 $","100 gr","4200.00000 $",Proteina
+"Carne Molida",Res,"CC Carnes","34254 $","1038 gr","33.00000 $","100 gr","3300.00000 $",Proteina
+Sobrebarriga,N/A,"CC Carnes","21438 $","794 gr","27.00000 $","100 gr","2700.00000 $",Proteina
+"Centro de Cadera",N/A,"CC Carnes","39468 $","1144 gr","34.50000 $","100 gr","3450.00000 $",Proteina
+Contramuslo,N/A,"CC Carnes","14794 $","1138 gr","13.00000 $","86 gr","1118.00000 $",Proteina
+Muslo,N/A,"CC Carnes","15996 $","1032 gr","15.50000 $","75 gr","1162.50000 $",Proteina
+"Pechuga de Pollo",N/A,"CC Carnes","27440 $","1000 gr","27.44000 $","80 gr","2195.20004 $",Proteina
+Camarones,N/A,"CC Carnes","22000 $","1000 gr","22.00000 $","60 gr","1320.00000 $",Proteina
+Salmón,N/A,"CC Carnes","46575 $","453 gr","102.81457 $","73 gr","7505.46343 $",Proteina
+Trucha,N/A,"CC Carnes","34040 $","1000 gr","34.04000 $","81 gr","2757.24007 $",Proteina
+Sal,Refisal,Alkosto,"3800 $","500 gr","7.60000 $","Porcion Ilimitada","Porcion Ilimitada","Condimentos y Salsas"
+"Queso Asar",Colanta,Alkosto,"15015 $","500 gr","30.03000 $","30 gr","900.90002 $",Sustitutos
+"Salsa Napolitana",Barilla,Alkosto,"10430 $","500 gr","20.86000 $","Porcion Ilimitada","Porcion Ilimitada","Condimentos y Salsas"
+Mayonesa,Fruco,Alkosto,"22900 $","440 gr","52.04545 $","Porcion Ilimitada","Porcion Ilimitada","Condimentos y Salsas"
+Huevos,AA,Alkosto,"34900 $","60 gr","581.66669 $","1 Unidades","581.66669 $",Sustitutos
+Limón,Tahiti,Alkosto,"2700 $","1000 gr","2.70000 $","Porcion Ilimitada","Porcion Ilimitada",Vegetales
+Tomate,Chonto,Alkosto,"5040 $","1000 gr","5.04000 $","Porcion Ilimitada","Porcion Ilimitada",Vegetales
+Papa,N/A,Alkosto,"13825 $","2500 gr","5.53000 $","108 gr","597.24002 $",Carbohidratos
+"Lechuga Crespa",N/A,Alkosto,"2030 $","200 gr","10.15000 $","Porcion Ilimitada","Porcion Ilimitada",Vegetales
+Cebollín,Kiska,Alkosto,"2940 $","50 gr","58.80000 $","Porcion Ilimitada","Porcion Ilimitada",Vegetales
+"Salsa de Tomate",Fruco,Alkosto,"14700 $","1000 gr","14.70000 $","Porcion Ilimitada","Porcion Ilimitada","Condimentos y Salsas"
+"Azucar Organica",Manuelita,Alkosto,"4200 $","800 gr","5.25000 $","Porcion Ilimitada","Porcion Ilimitada","Condimentos y Salsas"
+Lavaloza,Axion,Alkosto,"12665 $","1500 gr","8.44333 $","Porcion Ilimitada","Porcion Ilimitada",Aseo
+Zanahoria,N/A,Alkosto,"4700 $","1000 gr","4.70000 $","Porcion Ilimitada","Porcion Ilimitada",Vegetales
+Granola,Tosh,Alkosto,"23900 $","500 gr","47.80000 $","35 gr","1672.99997 $",Carbohidratos
+Plátano,N/A,Alkosto,"6456 $","1340 gr","4.81791 $","66 gr","317.98207 $",Carbohidratos
+"Harina pan",P.A.N,Alkosto,"4900 $","1000 gr","4.90000 $","56 gr","274.40001 $",Carbohidratos
+Perejil,Alkosto,Alkosto,"4900 $","80 gr","61.25000 $","Porcion Ilimitada","Porcion Ilimitada","Condimentos y Salsas"
+Mani,Manitoba,Alkosto,"12200 $","1440 gr","8.47222 $","10 gr","84.72220 $","Frutos Secos"
+Galletas,Tosh,Alkosto,"23900 $","441 gr","54.19501 $","24 gr","1300.68027 $",Carbohidratos
+"Harina de Trigo","Haz de oros",Alkosto,"5235 $","1000 gr","5.23500 $","Porcion Ilimitada","Porcion Ilimitada",Carbohidratos
+"Pasta Corta",Monticello,Alkosto,"7300 $","500 gr","14.60000 $","65 gr","949.00002 $",Carbohidratos
+Pepino,N/A,Alkosto,"3382 $","470 gr","7.19574 $","Porcion Ilimitada","Porcion Ilimitada",Vegetales
+Brócoli,N/A,Alkosto,"3675 $","420 gr","8.75000 $","Porcion Ilimitada","Porcion Ilimitada",Vegetales
+Durazno,N/A,Alkosto,"3701 $","360 gr","10.28056 $","150 gr","1542.08393 $",Frutas
+Aguacate,Hass,Alkosto,"6272 $","800 gr","7.84000 $","30 gr","235.20000 $","Grasas Saludables"
+"Cebolla Puerro",N/A,Alkosto,"3524 $","440 gr","8.00909 $","Porcion Ilimitada","Porcion Ilimitada",Vegetales
+Repollo,N/A,Alkosto,"4664 $","1360 gr","3.42941 $","Porcion Ilimitada","Porcion Ilimitada",Vegetales
+Uvas,N/A,Alkosto,"28000 $","950 gr","29.47368 $","100 gr","2947.36805 $",Frutas
+"Paño Microfibra",Eterna,Alkosto,"13230 $","3 Unidades","4410.00000 $","Porcion Ilimitada","Porcion Ilimitada",Aseo
+"Arroz Risotto","Castellano ",Alkosto,"15900 $","500 gr","31.80000 $","26 gr","826.79998 $",Carbohidratos
+"Salchichas Ranchera",Zenu,Alkosto,"24800 $","480 gr","51.66667 $","34 gr","1756.66684 $",Sustitutos
+Champiñones,N/A,Alkosto,"6090 $","250 gr","24.36000 $","Porcion Ilimitada","Porcion Ilimitada",Vegetales
+"Suero Costeño",Alqueria,Alkosto,"6650 $","400 ml","16.62500 $","30 ml","498.75000 $",Lácteos
+Paprika,Alkosto,Alkosto,"5900 $","125 gr","47.20000 $","Porcion Ilimitada","Porcion Ilimitada","Condimentos y Salsas"
+"Vino Blanco","Quinta las Cabras",D1,"16950 $","750 ml","22.60000 $","Porcion Ilimitada","Porcion Ilimitada",Bebidas
+"Vino Tinto","Pinta Negra",D1,"22950 $","750 ml","30.60000 $","Porcion Ilimitada","Porcion Ilimitada",Bebidas
