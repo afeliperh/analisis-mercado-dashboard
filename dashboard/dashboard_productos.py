@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Cargar datos
-df = pd.read_csv("data\Tabla_de_productos.csv")
+df = pd.read_csv("./data/Tabla_de_productos.csv")
 
 # Limpieza
 def limpiar_valores(valor):
