@@ -21,7 +21,7 @@ def convertir_precio_porcion(valor):
 df["Precio en porcion"] = df["Precio en porcion"].apply(convertir_precio_porcion)
 
 # Título
-st.title("🛒 Dashboard de Productos por Porción")
+st.title("Dashboard de Productos por Porción")
 
 # Filtros
 st.sidebar.header("🔎 Filtros")
@@ -51,18 +51,22 @@ rango_precio = st.sidebar.slider(
     float(min_precio), float(max_precio),
     (float(min_precio), float(max_precio))
 )
-
-# Aplicar filtros
+# Aplicar filtros básicos (sin excluir por precio en porción)
 df_filtrado = df[
     (df["Supermercado"].isin(supermercados)) &
     (df["Categoria"].isin(categorias)) &
-    (df["Producto"].str.contains(buscar, case=False, na=False)) &
-    (df["Precio en porcion"].fillna(0).between(rango_precio[0], rango_precio[1]))
+    (df["Producto"].str.contains(buscar, case=False, na=False))
 ]
 
+# Filtro adicional de precio solo si el valor existe
+con_precio = df_filtrado["Precio en porcion"].notna()
+df_filtrado_precio = df_filtrado[con_precio & df_filtrado["Precio en porcion"].between(rango_precio[0], rango_precio[1])]
+
+# Combinar los dos: los que cumplen el filtro o no tienen precio
+df_filtrado = pd.concat([df_filtrado_precio, df_filtrado[~con_precio]]).drop_duplicates()
 # Mostrar tabla
 st.subheader("📋 Productos filtrados")
-st.dataframe(df_filtrado[["Producto", "Marca", "Supermercado", "Precio Total", "Cantidad Total", "Porcion en gr/ml/unidad", "Precio en porcion"]])
+st.dataframe(df_filtrado[["Producto", "Marca", "Supermercado", "Precio Total", "Cantidad Total","Precio en gr/ml/unidad", "Porcion en gr/ml/unidad", "Precio en porcion"]])
 
 # Gráfico
 st.subheader("💸 Precio por porción")
