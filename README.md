@@ -48,7 +48,11 @@ streamlit run dashboard/dashboard_productos.py
 - `README.md`: Documentación del proyecto
 
 ---
+## Captura de pantalla 
 
+![image](https://github.com/user-attachments/assets/bbc937f1-84b7-4d51-b0b8-ee3661d3f8d7)
+
+---
 ### Casos de uso potencial
 - Educación nutricional con presupuesto limitado.
 - Aplicaciones en EPS, bienestar corporativo o mercados comunitarios.
