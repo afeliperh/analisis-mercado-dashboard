@@ -9,11 +9,11 @@ Está construido sobre una base de datos relacional en SQL, con lógica de selec
 
 ## Funcionalidades
 
-- Visualización de productos saludables por categoría y supermercado
-- Cálculo automático del precio por porción
-- Recomendador inteligente de menú por tipo de alimento (carbohidrato, proteína, bebida, etc.)
-- Optimización para cumplir con el número deseado de alimentos dentro del presupuesto
-- Categorización automática de bebidas con porción estándar (250 ml)
+- Visualización de los productos saludables por categoría y supermercado.
+- Cálculo automático del precio por porción de cada alimento.
+- Recomendador inteligente de menú por tipo de alimento (carbohidrato, proteína, bebida, etc.).
+- Optimización para cumplir con el número deseado de alimentos dentro del presupuesto.
+- Categorización automática de bebidas con porción estándar (250 ml).
 
 ---
 
@@ -50,9 +50,9 @@ streamlit run dashboard/dashboard_productos.py
 ---
 
 ### Casos de uso potencial
-- Educación nutricional con presupuesto limitado
-- Aplicaciones en EPS, bienestar corporativo o mercados comunitarios
-- Prototipo funcional para apps de salud o nutrición consciente
+- Educación nutricional con presupuesto limitado.
+- Aplicaciones en EPS, bienestar corporativo o mercados comunitarios.
+- Prototipo funcional para apps de salud o nutrición consciente.
 
 ---
 
