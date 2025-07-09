@@ -63,7 +63,7 @@ def encontrar_mejor_combinacion(df, porciones_deseadas, presupuesto):
     for categoria, cantidad in porciones_deseadas.items():
         if cantidad > 0:
             productos_cat = df[df["Categoria"] == categoria]
-            productos_cat = productos_cat.sort_values("Precio en porcion").head(cantidad * 4)  # más variedad
+            productos_cat = productos_cat.sort_values("Precio en porcion").head(cantidad * 3)  # más variedad
             candidatos.append(list(itertools.combinations(productos_cat.index, min(len(productos_cat), cantidad))))
         else:
             candidatos.append([()])
