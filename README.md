@@ -1,20 +1,23 @@
-# 🛒 Análisis de Precios por Porción - SQL + Dashboard Interactivo
+# Recomendador de Menús Saludables por Presupuesto
 
-Este proyecto permite visualizar, filtrar y recomendar productos de supermercado según su precio por porción, categoría y presupuesto, utilizando una base de datos relacional en SQL y dashboards interactivos en Python con Streamlit.
+SQL + Streamlit · Dashboard interactivo con lógica de optimización
+
+Este proyecto permite visualizar, filtrar y recomendar combinaciones de alimentos según su precio por porción, categoría y presupuesto disponible.
+Está construido sobre una base de datos relacional en SQL, con lógica de selección optimizada para ayudar al usuario a maximizar su compra dentro de un presupuesto determinado.
 
 ---
 
-## 💡 Funcionalidades
+## Funcionalidades
 
-- Visualización de productos filtrados por categoría y supermercado
+- Visualización de productos saludables por categoría y supermercado
 - Cálculo automático del precio por porción
-- Recomendador de menú personalizado por porciones y presupuesto
-- Optimización para usar el presupuesto al máximo
+- Recomendador inteligente de menú por tipo de alimento (carbohidrato, proteína, bebida, etc.)
+- Optimización para cumplir con el número deseado de alimentos dentro del presupuesto
 - Categorización automática de bebidas con porción estándar (250 ml)
 
 ---
 
-## 🚀 Cómo usar
+## Cómo usar
 
 1. Clona el repositorio:
 
@@ -37,12 +40,19 @@ streamlit run dashboard/dashboard_productos.py
 
 ---
 
-## 📦 Estructura del repositorio
+## Estructura del repositorio
 
 - `sql/`: Scripts SQL para construir la base de datos relacional
 - `data/`: Exportación CSV desde MySQL con productos y precios
 - `dashboard/`: Aplicaciones de visualización y recomendación en Streamlit
 - `README.md`: Documentación del proyecto
+
+---
+
+### Casos de uso potencial
+- Educación nutricional con presupuesto limitado
+- Aplicaciones en EPS, bienestar corporativo o mercados comunitarios
+- Prototipo funcional para apps de salud o nutrición consciente
 
 ---
 
@@ -52,3 +62,4 @@ streamlit run dashboard/dashboard_productos.py
 Ingeniero Biomédico | Ciencia de Datos aplicada a salud, nutrición y consumo consciente  
 📍 Bogotá, Colombia  
 🔗 [LinkedIn](https://www.linkedin.com/in/andresfeliperuiz)
+🔗 [APP en vivo](https://analisis-mercado-dashboard.onrender.com)
